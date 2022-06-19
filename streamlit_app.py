@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 st.set_page_config(layout = "wide")
 df = pd.DataFrame(px.data.gapminder())
-st.header("National Statistics")
+st.header("World Statistics")
 page = st.sidebar.selectbox('Select page',
   ['Country data','Continent data'])
 if page == 'Country data':
